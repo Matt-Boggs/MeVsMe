@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfPractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPractice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ProgressBar x:Name="turnBar" HorizontalAlignment="Center" Height="18" Margin="0,26,0,0" VerticalAlignment="Top" Width="400" Value="50" Foreground="Blue"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="132,288,0,0" VerticalAlignment="Top" Width="50" Click="ButtonClick"/>
+        <ProgressBar x:Name="oneHP" HorizontalAlignment="Left" Height="17" Margin="72,84,0,0" VerticalAlignment="Top" Width="132" Value="100"/>
+        <Label x:Name="oneHPLbl" Content="Label" HorizontalAlignment="Left" Height="28" Margin="27,84,0,0" VerticalAlignment="Top" Width="40"/>
+        <ProgressBar x:Name="twoHP" HorizontalAlignment="Left" Height="18" Margin="578,84,0,0" VerticalAlignment="Top" Width="132" Value="100" FlowDirection="RightToLeft"/>
+        <Label x:Name="twoHPlbl" Content="Label" HorizontalAlignment="Left" Height="28" Margin="730,84,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label x:Name="oneName" Content="Label" HorizontalAlignment="Left" Height="26" Margin="85,53,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="twoname" Content="Label" HorizontalAlignment="Left" Height="26" Margin="591,53,0,0" VerticalAlignment="Top" Width="106" HorizontalContentAlignment="Right"/>
+        <Label x:Name="oneATK" Content="Label" HorizontalAlignment="Left" Height="25" Margin="72,130,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="twoATK" Content="Label" HorizontalAlignment="Left" Height="25" Margin="578,130,0,0" VerticalAlignment="Top" Width="132"/>
+
+    </Grid>
+</Window>
